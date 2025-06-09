@@ -7,7 +7,7 @@
 
 body {
     background-color: #F3E5D7;
-    font-family: 'Young Serif', serif;
+
     margin: 40px auto;
     width: 736px;
 }
@@ -32,10 +32,33 @@ p {
 
 .Preparation {
     background-color: #fff7fb;
+    width: 656px;
+    height: 172px;
+    line-height: 30px;
+}
+
+.preparation-title {
+    color: #7a284e;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.Ingredients {
+    line-height: 30px;
+}
+
+.Instructions {
+    line-height: 25px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
 }
 
 h2 {
     color: #7a284e;
+    font-family: 'Young Serif', serif;
 }
 
 .img-omelette {
@@ -44,4 +67,17 @@ h2 {
     height: 300px;
     background-color: white;
     border-radius: 12px;
+}
+
+li::marker {
+    color: #7a284e;
+
+}
+
+li {
+    text-indent: 1rem;
+}
+
+ol {
+    position: relative;
 }
